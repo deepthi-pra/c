@@ -1,10 +1,14 @@
 #include<stdio.h>
+//find perimeter of rectangle
 int main(){
-    int a,b;
-    printf("enter a");
-    scanf("%d", &a);
-    printf("enter b");
-    scanf("%d", &b);
-    printf("sum is : %d", a + b);
+    float a;
+    //a represents length
+    printf("enter a is");
+    scanf("%f", &a);
+    float b;
+    //b represents width
+    printf("enter b is");
+    scanf("%f", &b);
+  printf("area is : %f", 2*a*b);
     return 0;
 }
